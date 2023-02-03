@@ -1,8 +1,8 @@
-name: publish
-on:
-  push:
-    tags:
-      - '*'
+name: Create and publish a Docker image to DockerHub
+#on:
+#  push:
+#    tags:
+#      - '*'
 jobs:
   docker:
     runs-on: ubuntu-latest
